@@ -1,0 +1,19 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+*.apk
+*.aab
+
+# Web / Node
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
