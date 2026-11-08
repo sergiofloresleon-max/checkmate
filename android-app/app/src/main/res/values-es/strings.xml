@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CheckMate</string>
+    <string name="all_items_claimed_title">¡Todos los ítems fueron reclamados! (100%)</string>
+    <string name="missing_items_alert">Alerta: Faltan %1$d ítem(s) por tener dueño</string>
+    <string name="scan_receipt_btn">Escanear Ticket</string>
+    <string name="share_link_btn">Mandar Liga</string>
+</resources>

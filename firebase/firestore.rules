@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /sessions/{sessionId} {
+      allow read: if true;
+      allow create: if request.resource.data.items is list
+                    && request.resource.data.restaurantName is string;
+      allow update: if request.resource.data.version == resource.data.version + 1;
+    }
+  }
+}
